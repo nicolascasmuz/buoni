@@ -190,6 +190,7 @@ body {
   .section-2 {
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto;
+    align-items: flex-start;
   }
 }
 
@@ -213,6 +214,7 @@ body {
   display: grid;
   justify-items: center;
   align-content: space-between;
+  max-width: 400px;
 }
 
 @media (min-width: 769px) {
@@ -226,6 +228,7 @@ body {
   display: grid;
   justify-items: center;
   align-content: space-between;
+  max-width: 400px;
 }
 
 @media (min-width: 769px) {
@@ -239,6 +242,7 @@ body {
   display: grid;
   justify-items: center;
   align-content: space-between;
+  max-width: 400px;
 }
 
 @media (min-width: 769px) {
@@ -252,10 +256,11 @@ body {
   display: grid;
   justify-items: center;
   align-content: space-between;
+  max-width: 400px;
 }
 
 @media (min-width: 769px) {
-  .product-wrapper-3 {
+  .product-wrapper-4 {
     grid-column: 2;
     grid-row: 3;
   }
